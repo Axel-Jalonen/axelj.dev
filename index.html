@@ -9,8 +9,8 @@
 <style>
     body {
         font-family: sans-serif, monospace, serif;
-        max-width: calc(100vw/2);
         margin: auto;
+        padding: 15px;
     }
     @media (prefers-color-scheme: dark) {
         a {
@@ -20,6 +20,9 @@
             background: black;
             color: white;
         }
+    }
+    @media (width > 800px) {
+        body{max-width: calc(100vw/2);}
     }
 </style>
 <body>
