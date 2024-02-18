@@ -8,33 +8,35 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
     * {
-        font-family: "roboto mono", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: sans-serif, monospace, serif;
     }
     body {
         max-width: calc(100vw/2);
         margin: auto;
     }
+    @media (prefers-color-scheme: dark) {
+        a {
+            color: #4B96FF;
+        }
+        body {
+            background: black;
+            color: white;
+        }
+    }
 </style>
 <body>
    <h1>Axel Jalonen</h1> 
    <ul>
-    <li>Founder of <a href="https://brutalist-true-minimalism.axelj.dev/">brutalist true minimalism</a>.</li>
-    <li>Minimalist: "seek minimalism in design; simplicity in development".</li>
+    <li>Founder of <a href="https://brutalist-true-minimalism.axelj.dev">brutalist true-minimalism</a>.</li>
     <li>Investor</li>
-    <li>Believer in:</li>
-    <ul>
-        <li>Privacy</li>
-        <li>Free Speech</li>
-        <li>Free Market</li>
-        <li>Democracy</li>
-    </ul>
+    <li>Developer</li>
    </ul>
    <h2>Projects</h2>
    <ul>
-    <li>In-browser text compression. <a href="https://readcomp.axelj.dev/">visit</a></li>
-    <li>WebGL Graphing Calculator. <a href="https://graphing.axelj.dev">visit</a></li>
+    <li><a href="https://readcomp.axelj.dev/">In-browser text compression</a>.</li>
+    <li><a href="https://graphing.axelj.dev">WebGL graphing calculator</a>.</li>
     <li>Ultra-lightweight web framework.</li>
-    <li>Real Time Traveling salesman problem solver. <a href="https://tsp.axelj.dev/"></a></li>
+    <li><a href="https://tsp.axelj.dev/">Real time traveling salesman problem solver</a>.</li>
    </ul>
 </body>
 </html>
