@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Founder of brutalist true-minimalism, developer, investor, thinker." />
-    <title>Axel Jalonen</title>
-  </head>
-  <style>
-    :root {
-      font-size: 20px;
-    }
 
-    html {
-      display: flex;
-      justify-content: center;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Founder of brutalist true-minimalism, developer, investor, thinker." />
+  <title>Axel Jalonen</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  main {
+    font-family: sans-serif;
+    padding: 5%;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: #4b96ff;
     }
 
     body {
-      font-family: sans-serif;
-      padding: 5%;
+      background: black;
+      color: white;
     }
+  }
+</style>
 
-    @media (prefers-color-scheme: dark) {
-      a {
-        color: #4b96ff;
-      }
-
-      body {
-        background: black;
-        color: white;
-      }
-    }
-  </style>
-
-  <body>
+<body>
+  <main>
     <h1>Axel Jalonen</h1>
     <ul>
       <li>
@@ -50,5 +49,7 @@
       <li>Ultra-lightweight web framework.</li>
       <li><a href="https://tsp.axelj.dev/">Real time traveling salesman problem solver</a>.</li>
     </ul>
-  </body>
+  </main>
+</body>
+
 </html>
