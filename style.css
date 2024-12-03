@@ -1,5 +1,7 @@
 :root {
     color-scheme: light dark;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5rem;
 }
 
 body {
@@ -7,8 +9,37 @@ body {
     background: light-dark(white, black);
     display: flex;
     justify-content: center;
+    transform: translateY(25vh);
+    text-transform: uppercase;
 }
 
 main {
     display: inline-block;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    margin: 0.125rem 0rem;
+    list-style: none;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+#projects {
+    margin: 3rem 0rem;
+}
+
+#socials {
+    margin: 3rem 0rem;
+}
+
+#about {
+    font-size: 1.5rem;
 }
