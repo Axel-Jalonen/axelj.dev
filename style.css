@@ -6,7 +6,6 @@
 
 body {
     color: light-dark(black, white);
-    padding: 0rem 3rem;
     background: light-dark(white, black);
     display: flex;
     justify-content: center;
@@ -16,6 +15,7 @@ body {
 
 main {
     display: inline-block;
+    padding: 0rem 3rem;
 }
 
 ul {
