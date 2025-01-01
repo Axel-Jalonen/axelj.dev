@@ -8,7 +8,28 @@
         <link rel="stylesheet" href="./style.css" />
         <title>Axel Jalonen</title>
     </head>
+    <style>
+        #message {
+            background: red;
+            padding: 3rem;
+            user-select: none;
+            width: 500px;
+            border: 5px solid red;
+            height: 250px;
+            position: absolute;
+            top: 0;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: black;
+            font-family: Impact;
+            text-transform: uppercase;
+        }
+    </style>
     <body>
+        <div id="message">WAKE UP</div>
         <main>
             <p id="about">Investor, designer, programmer...</p>
             <ul id="projects">
@@ -38,4 +59,18 @@
             </ul>
         </main>
     </body>
+    <script>
+        const messageElement = document.getElementById("message");
+
+        function flash() {
+            messageElement.style.background =
+                messageElement.style.background == "black" ? "red" : "black";
+            messageElement.style.color =
+                messageElement.style.color == "red" ? "black" : "red";
+            messageElement.style.borderColor =
+                messageElement.style.borderColor == "red" ? "black" : "red";
+        }
+
+        setInterval(flash, 500);
+    </script>
 </html>
