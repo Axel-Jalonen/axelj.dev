@@ -9,8 +9,22 @@ body {
     background: light-dark(white, black);
     display: flex;
     justify-content: center;
-    transform: translateY(25vh);
+    transform: translateY(15vh);
+}
+
+h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h1,
+li,
+h2 {
     text-transform: uppercase;
+}
+
+#web-projects {
+    margin-top: 3rem;
 }
 
 main {
@@ -23,24 +37,32 @@ ul {
 }
 
 li {
-    margin: 0.125rem 0rem;
     list-style: none;
+}
+
+#projects li {
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+#socials {
+    display: flex;
+}
+
+#socials li {
+    margin-right: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 a {
     text-transform: uppercase;
     text-decoration: none;
-    color: light-dark(black, white);
+    color: light-dark(#020050, #cce7ff);
 }
 
 #projects {
-    margin: 3rem 0rem;
-}
-
-#socials {
-    margin: 3rem 0rem;
-}
-
-#about {
-    font-size: 1.5rem;
+    /* margin: 3rem 0rem; */
 }
