@@ -1,68 +1,14 @@
-:root {
-    color-scheme: light dark;
-    font-family: Helvetica, sans-serif;
-    line-height: 1.5rem;
-}
-
 body {
-    color: light-dark(black, white);
-    background: light-dark(white, black);
     display: flex;
     justify-content: center;
-    transform: translateY(15vh);
-}
-
-h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-h1,
-li,
-h2 {
-    text-transform: uppercase;
-}
-
-#web-projects {
-    margin-top: 3rem;
+    padding-top: 10rem;
+    font-family: monospace;
 }
 
 main {
-    display: inline-block;
-    padding: 0rem 3rem;
-}
-
-ul {
-    padding: 0;
+    max-width: 80ch;
 }
 
 li {
-    list-style: none;
-}
-
-#projects li {
-    font-size: 0.8rem;
-    list-style: none;
-}
-
-#socials {
-    display: flex;
-}
-
-#socials li {
-    margin-right: 2rem;
-}
-
-p {
-    font-size: 1.2rem;
-}
-
-a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: light-dark(#020050, #cce7ff);
-}
-
-#projects {
-    /* margin: 3rem 0rem; */
+    list-style-type: "- ";
 }
