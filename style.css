@@ -1,14 +1,10 @@
 body {
     display: flex;
     justify-content: center;
-    padding-top: 10rem;
     font-family: monospace;
+    padding: 10rem 2rem;
 }
 
 main {
     max-width: 80ch;
-}
-
-li {
-    list-style-type: "- ";
 }
